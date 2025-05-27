@@ -77,17 +77,8 @@ ENUM('pendente','pago','cancelado','enviado')
 ## Como rodar o projeto
 
 1. Crie um banco de dados MySQL para o projeto.
-2. Execute o script SQL `script.sql` que está na raiz do projeto para criar as tabelas necessárias.
-3. Configure o arquivo de conexão ao banco com suas credenciais.
-4. Abra o projeto no navegador para começar a usar.
-
----
-
-## Observações
-
-- Utilize PHP 7.3 ou superior.
-- Recomendamos o uso do Bootstrap para a interface.
-- O sistema usa sessões para controle do carrinho de compras.
-- O envio de e-mail requer configuração correta do servidor SMTP.
+2. Execute o script SQL `database.sql` que está na raiz do projeto para criar as tabelas necessárias.
+3. Configure o arquivo config\conexao.php com suas credenciais.
+4. Abra o projeto no navegador http://localhost/montink/ para começar a usar.
 
 ---
